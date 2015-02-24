@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-    int a;
-    int y;
-    y = a = 1;
-    cout << a  << y << endl;
 
+    int x = 5;
+    x = 9 % 2;
+
+    cout << x;
     cin.get();
     return 0;
 }
